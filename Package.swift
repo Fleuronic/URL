@@ -19,9 +19,9 @@ let package = Package(
         ),
     ],
     dependencies: [
-        // Depend on the latest Swift 5.9 prerelease of SwiftSyntax
-        .package(url: "https://github.com/apple/swift-syntax.git", from: "509.0.0-swift-5.9-DEVELOPMENT-SNAPSHOT-2023-04-25-b"),
-    ],
+		// Depend on the Swift 5.10 release of SwiftSyntax
+		.package(url: "https://github.com/apple/swift-syntax.git", from: "510.0.0")
+	],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
